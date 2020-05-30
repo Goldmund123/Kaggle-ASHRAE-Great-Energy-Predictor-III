@@ -31,12 +31,12 @@ the evaluation metric is Root Mean Squared Logarithmic Error. The RMSLE is calcu
 </p>
 Where:
 
-$\epsilon$ is the RMSLE value (score)
-$n$ is the total number of observations in the (public/private) data set,
-$p_i$ is the prediction of the target, and
-$a_i$ is the actual target for i.
-$log(x)$ is the natural logarithm of x
-Note that not all rows will necessarily be scored.
+<img src="https://render.githubusercontent.com/render/math?math=\epsilon"> is the RMSLE value (score) <br>
+$n$ is the total number of observations in the (public/private) data set, <br>
+$p_i$ is the prediction of the target, and <br>
+$a_i$ is the actual target for i. <br>
+$log(x)$ is the natural logarithm of x <br>
+Note that not all rows will necessarily be scored. <br>
 
 
 ## Data leakage problem
