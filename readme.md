@@ -32,10 +32,10 @@ the evaluation metric is Root Mean Squared Logarithmic Error. The RMSLE is calcu
 Where:
 
 <img src="https://render.githubusercontent.com/render/math?math=\epsilon"> is the RMSLE value (score) <br>
-$n$ is the total number of observations in the (public/private) data set, <br>
-$p_i$ is the prediction of the target, and <br>
-$a_i$ is the actual target for i. <br>
-$log(x)$ is the natural logarithm of x <br>
+<img src="https://render.githubusercontent.com/render/math?math=n"> is the total number of observations in the (public/private) data set, <br>
+<img src="https://render.githubusercontent.com/render/math?math=p_i"> is the prediction of the target, and <br>
+<img src="https://render.githubusercontent.com/render/math?math=a_i"> is the actual target for i. <br>
+<img src="https://render.githubusercontent.com/render/math?math=log(x)"> is the natural logarithm of x <br>
 Note that not all rows will necessarily be scored. <br>
 
 
