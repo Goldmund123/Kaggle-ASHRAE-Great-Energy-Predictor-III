@@ -26,9 +26,9 @@ The target variable is the energy consumption in a kilowatt-hour.
 
 ## Evaluation Metric
 the evaluation metric is Root Mean Squared Logarithmic Error. The RMSLE is calculated as:
-
-<img align="center" src="https://render.githubusercontent.com/render/math?math=\epsilon = \sqrt{\frac{1}{n} \sum_{i=1}^n (\log(p_i + 1) - \log(a_i+1))^2 }">
-
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=\epsilon = \sqrt{\frac{1}{n} \sum_{i=1}^n (\log(p_{i} + 1) - \log(a_{i} + 1))^2 }">
+</p>
 Where:
 
 $\epsilon$ is the RMSLE value (score)
